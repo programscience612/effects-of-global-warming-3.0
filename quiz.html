@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Buzzer Wire Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- Same nav -->
+        <nav>
+            <div class="logo">Buzzer Wire Game</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="how-to-play.html">How to Play</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="diy-guide.html">DIY Guide</a></li>
+                <li><a href="tips-tricks.html">Tips & Tricks</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Test Your Knowledge: Buzzer Wire Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. When was the Buzzer Wire Game invented?</p>
+                <label><input type="radio" name="q1" value="a"> 1940</label>
+                <label><input type="radio" name="q1" value="b"> 1953</label>
+                <label><input type="radio" name="q1" value="c"> 1960</label>
+            </div>
+            <div class="question">
+                <p>2. Who invented it?</p>
+                <label><input type="radio" name="q2" value="a"> John Waddington</label>
+                <label><input type="radio" name="q2" value="b"> Robert Scrimshaw</label>
+                <label><input type="radio" name="q2" value="c"> Thomas Edison</label>
+            </div>
+            <div class="question">
+                <p>3. What happens if you touch the wire?</p>
+                <label><input type="radio" name="q3" value="a"> Nothing</label>
+                <label><input type="radio" name="q3" value="b"> Buzzer sounds</label>
+                <label><input type="radio" name="q3" value="c"> Lights flash</label>
+            </div>
+            <div class="question">
+                <p>4. Where was it invented?</p>
+                <label><input type="radio" name="q4" value="a"> USA</label>
+                <label><input type="radio" name="q4" value="b"> Yorkshire, England</label>
+                <label><input type="radio" name="q4" value="c"> France</label>
+            </div>
+            <div class="question">
+                <p>5. What is the main skill needed?</p>
+                <label><input type="radio" name="q5" value="a"> Speed</label>
+                <label><input type="radio" name="q5" value="b"> Steady hand</label>
+                <label><input type="radio" name="q5" value="c"> Strength</label>
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <div id="quiz-result"></div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Buzzer Wire Game Site</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
